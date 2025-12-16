@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  /* Cores */
+  --color-primary-dark: #8F0101;
+  --color-primary: #B81515;
+  --color-black: #000000;
+  --color-dark-gray: #222222;
+  --color-gray: #8C8C8C;
+  --color-light-gray: #D9D9D9;
+  --color-off-white: #F5F5F5;
+  --color-white: #FFFFFF;
+
+  /* Base para tamanhos de fonte */
+  --font-size-base: 1rem; /* 16px */
+
+  /* Tamanhos de fonte calculados */
+  --font-size-h1: calc(var(--font-size-base) * 3); /* 48px */
+  --font-size-h2: calc(var(--font-size-base) * 2.5); /* 40px */
+  --font-size-h3: calc(var(--font-size-base) * 2); /* 32px */
+  --font-size-h4: calc(var(--font-size-base) * 1.75); /* 28px */
+  --font-size-body1: calc(var(--font-size-base) * 1); /* 16px */
+  --font-size-body2: calc(var(--font-size-base) * 1.25); /* 20px */
+  --font-size-body3: calc(var(--font-size-base) * 1.5); /* 24px */
+  --font-size-body4: calc(var(--font-size-base) * 2); /* 32px */
+  --font-size-subtitle: calc(var(--font-size-base) * 0.875); /* 14px */
+
+  /* Pesos de fonte */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Base para espaçamentos */
+  --space-base: 1rem; /* 16px */
+
+  /* Espaçamentos calculados */
+  --space-xs: calc(var(--space-base) * 0.25); /* 4px */
+  --space-sm: calc(var(--space-base) * 0.5); /* 8px */
+  --space-md: calc(var(--space-base) * 0.75); /* 12px */
+  --space-lg: calc(var(--space-base) * 1); /* 16px */
+  --space-xl: calc(var(--space-base) * 1.25); /* 20px */
+  --space-2xl: calc(var(--space-base) * 1.5); /* 24px */
+  --space-3xl: calc(var(--space-base) * 2); /* 32px */
+  --space-4xl: calc(var(--space-base) * 2.5); /* 40px */
+  --space-5xl: calc(var(--space-base) * 3); /* 48px */
+  --space-6xl: calc(var(--space-base) * 4); /* 64px */
+}
