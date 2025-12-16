@@ -1,0 +1,63 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-body1);
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+h1, h2, h3, h4 {
+  font-weight: var(--font-weight-bold);
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+h4 {
+  font-size: var(--font-size-h4);   
+}
+
+p {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-body1);
+}
+
+/* Classes para variações de body */
+.body1, .body2, .body3, .body4, .subtitle {
+  font-weight: var(--font-weight-regular);
+}
+
+.body1 {
+  font-size: var(--font-size-body1);
+}
+
+.body2 {
+  font-size: var(--font-size-body2);
+}
+
+.body2-bold {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-body2);
+}
+
+.body3 {
+  font-size: var(--font-size-body3);
+}
+
+.body4 {
+  font-size: var(--font-size-body4);
+}
+
+.subtitle {
+  font-size: var(--font-size-subtitle);
+  color: var(--color-gray);
+}
