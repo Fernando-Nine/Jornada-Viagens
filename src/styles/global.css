@@ -6,85 +6,58 @@ body {
   background-color: var(--color-white);
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
+h1, h2, h3, h4 {
   font-weight: var(--font-weight-bold);
+}
+
+h1 {
   font-size: var(--font-size-h1);
-  color: var(--color-black);
-  margin-bottom: var(--space-lg);
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: var(--font-weight-bold);
   font-size: var(--font-size-h2);
-  color: var(--color-black);
-  margin-bottom: var(--space-md);
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: var(--font-weight-bold);
   font-size: var(--font-size-h3);
-  color: var(--color-black);
-  margin-bottom: var(--space-md);
 }
 
 h4 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-h4);
-  color: var(--color-black);
-  margin-bottom: var(--space-sm);
+  font-size: var(--font-size-h4);   
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-body1);
-  color: var(--color-black);
-  margin-bottom: var(--space-lg);
 }
 
 /* Classes para variações de body */
-.body1 {
-  font-family: 'Montserrat', sans-serif;
+.body1, .body2, .body3, .body4, .subtitle {
   font-weight: var(--font-weight-regular);
+}
+
+.body1 {
   font-size: var(--font-size-body1);
-  color: var(--color-black);
 }
 
 .body2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: var(--font-weight-regular);
   font-size: var(--font-size-body2);
-  color: var(--color-black);
 }
 
 .body2-bold {
-  font-family: 'Montserrat', sans-serif;
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-body2);
-  color: var(--color-black);
 }
 
 .body3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: var(--font-weight-regular);
   font-size: var(--font-size-body3);
-  color: var(--color-black);
 }
 
 .body4 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: var(--font-weight-regular);
   font-size: var(--font-size-body4);
-  color: var(--color-black);
 }
 
 .subtitle {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: var(--font-weight-regular);
   font-size: var(--font-size-subtitle);
   color: var(--color-gray);
 }
