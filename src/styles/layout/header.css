@@ -15,12 +15,7 @@
     width: 64px;
 }
 
-.logo-completa, .logo-simbolo {
-    /* margin-left: var(--space-2xl); */
-}
-
 .menu-icon {
-    /* margin-right: var(--space-2xl); */
     width: 32px;
     height: 32px;
     cursor: pointer;
