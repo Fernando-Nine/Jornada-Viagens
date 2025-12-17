@@ -44,6 +44,10 @@ h6 {
   overflow-wrap: break-word;
 }
 
+ul {
+    list-style: none;
+}
+
 #root,
 #__next {
   isolation: isolate;

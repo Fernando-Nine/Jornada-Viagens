@@ -1,0 +1,65 @@
+.header {
+    background-color: var(--color-black);
+    padding: var(--space-3xl) var(--space-2xl);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo-completa {
+    display: none;
+}
+
+.logo-simbolo {
+    width: 64px;
+}
+
+.logo-completa, .logo-simbolo {
+    /* margin-left: var(--space-2xl); */
+}
+
+.menu-icon {
+    /* margin-right: var(--space-2xl); */
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.menu-toggle-hide, .menu-hide {
+    display: none;
+}
+
+.menu-toggle-hide:checked ~ .menu-hide {
+    display: flex;
+}
+
+.nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-black);
+    flex-direction: column;
+}
+
+.white {
+    color: var(--color-white);
+    margin: 0px var(--space-2xl);
+}
+
+.nav__list-container {
+    padding: var(--space-xl) var(--space-2xl);
+}
+
+.nav__list-link {
+    display: block;
+    font-size: var(--font-size-body2);
+    color: var(--color-white);
+    text-decoration: none;
+    padding: var(--space-sm) 0;
+}
+
+.nav__list-link:hover {
+    text-decoration: underline;
+}
