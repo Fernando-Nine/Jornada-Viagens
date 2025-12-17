@@ -9,10 +9,27 @@
     <link rel="stylesheet" href="src/styles/base.css">
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/components.css">
+    <link rel="stylesheet" href="src/styles/layout/header.css">
     
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>Jornada Viagens</title>
 </head>
 <body>
+    <header class="header">
+        <img src="src/images/header-footer/Logo-branco.png" alt="Logo Jornada Viagens" class="logo-completa">
+        <img src="src/images/header-footer/Símbolo_white.png" alt="Logo Jornada Viagens" class="logo-simbolo">
+        <label for="menu-toggle">
+            <img src="src/images/header-footer/menu.svg" alt="Ícone de menu" class="menu-icon">
+        </label>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-hide">
+        <nav class="menu-hide nav">
+            <hr class="white">
+            <ul class="nav__list-container">
+                <li class="nav__list-item"><a href="#" class="nav__list-link">Blog</a></li>
+                <li class="nav__list-item"><a href="#" class="nav__list-link">Pacotes de viagem</a></li>
+                <li class="nav__list-item"><a href="#" class="nav__list-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
