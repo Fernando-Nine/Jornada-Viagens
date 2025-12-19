@@ -9,3 +9,37 @@
     background: url('../../images/mobile/1-homepage/Banner-homepage.png') no-repeat center;
     background-size: cover;
 }
+
+@media screen and (min-width: 768px) {
+    .hero-container {
+        height: 500px;
+    }
+    
+    .hero {
+        background: url('../../images/tablet/1-homepage/Banner-tablet.png') no-repeat center;
+        background-size: cover;
+    }   
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-container {
+        height: 600px;
+    }
+    
+    .hero {
+        background: url('../../images/desktop/1-homepage/Banner-desktop.png') no-repeat center;
+        background-size: cover;
+    }   
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-container {
+        height: 700px;
+    }
+    
+    .hero {
+        background: url('../../images/desktop-large/1-homepage/Banner-desktop-large.png') no-repeat center;
+        background-size: cover;
+    }
+    
+}
